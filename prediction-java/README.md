@@ -1,13 +1,11 @@
-# prediction-cmdline-sample
+# Google Prediction API
 
-## Instructions for the Prediction V1.6 API
+The code in this repository is derived from the Google prediction api code sample provided by Google.  I've added the ability to create categorical models even when using integer values in CSV formatted training data.  
 
-### Browse Samples online
+- To do this, use the replaceNumbers() function in PredictionSample.java, passing it the English version of the number from the training data.  
+- To generate training data with integers converted to English, please look at the datagen directory in this repo.  The inflect library is used in data-generator.py to achieve this.
 
--   [Browse Source]
-    (https://github.com/google/google-api-java-client-samples/tree/master/prediction-cmdline-sample),
-    or [main file]
-    (https://github.com/google/google-api-java-client-samples/blob/master/prediction-cmdline-sample/src/main/java/com/google/api/services/samples/prediction/cmdline/PredictionSample.java).
+## To use this sample:
 
 ### Register your application
 
@@ -35,10 +33,10 @@ and [Maven](http://maven.apache.org/download.html). You might need to set your
 `JAVA_HOME`.
 
     cd [someDirectory]
-    git clone https://github.com/google/google-api-java-client-samples.git
-    cd google-api-java-client-samples/prediction-cmdline-sample
+    git clone https://github.com/vbrunell/machine-learning.git
+    cd machine-learning/prediction-java
     cp ~/Downloads/MyProject-12345abcd.p12 src/main/resources/
-    [editor] src/main/java/com/google/api/services/samples/prediction/cmdline/PredictionSample.java
+    [editor] src/main/java/com/google/api/services/prediction/PredictionSample.java
     mvn compile
     mvn -q exec:java
 
