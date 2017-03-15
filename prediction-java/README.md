@@ -1,4 +1,3 @@
-# Google Prediction API
 
 The code in this repository is derived from the Google prediction api code sample provided by Google.  I've added the ability to create categorical models even when using integer values in CSV formatted training data.  
 
