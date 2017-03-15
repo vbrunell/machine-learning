@@ -32,13 +32,24 @@
 
   <developers>
     <developer>
+      <id>yanivi</id>
+      <name>Yaniv Inbar</name>
+      <email>yanivi@google.com</email>
+      <organization>Google</organization>
+      <organizationUrl>http://www.google.com</organizationUrl>
+      <roles>
+        <role>original-developer</role>
+      </roles>
+      <timezone>-5</timezone>
+   </developer>
+    <developer>
       <id>vbrunell</id>
       <name>Victor Brunell</name>
       <email>brunell@cs.fsu.edu</email>
       <organization>Google</organization>
       <organizationUrl>http://www.google.com</organizationUrl>
       <roles>
-        <role>developer</role>
+        <role>new-developer</role>
       </roles>
       <timezone>-5</timezone>
     </developer>
