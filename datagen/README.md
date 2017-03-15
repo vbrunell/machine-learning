@@ -1,4 +1,4 @@
-This is a data set generator for use with Google's machine learning API.  It is derived from Harry Schwartz's Markov Sentence Generator.  
+This is a data set generator for use with the Google Cloud Prediction API.  It is derived from Harry Schwartz's Markov Sentence Generator.  
 
 - It generates data sets in CSV format.  
 - It also generates data sets that can be used with integer column values and categorical models (as opposed to regression models).  
