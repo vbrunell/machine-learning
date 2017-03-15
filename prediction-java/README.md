@@ -5,14 +5,7 @@ The code in this repository is derived from the code sample provided by Google. 
 - To do this, use the replaceNumbers() function in PredictionSample.java, passing it the English version of the number from the training data.  
 - To generate training data with integers converted to English, please look at the datagen directory in this repo.  The inflect library is used in data-generator.py to achieve this.
 
-## Instructions for the Prediction V1.6 API
-
-### Browse Samples online
-
--   [Browse Source]
-    (https://github.com/google/google-api-java-client-samples/tree/master/prediction-cmdline-sample),
-    or [main file]
-    (https://github.com/google/google-api-java-client-samples/blob/master/prediction-cmdline-sample/src/main/java/com/google/api/services/samples/prediction/cmdline/PredictionSample.java).
+## To use this sample:
 
 ### Register your application
 
@@ -41,11 +34,18 @@ and [Maven](http://maven.apache.org/download.html). You might need to set your
 
     cd [someDirectory]
     git clone https://github.com/google/google-api-java-client-samples.git
-    cd google-api-java-client-samples/prediction-cmdline-sample
+    cd machine-learning/prediction-java
     cp ~/Downloads/MyProject-12345abcd.p12 src/main/resources/
-    [editor] src/main/java/com/google/api/services/samples/prediction/cmdline/PredictionSample.java
+    [editor] src/main/java/com/google/api/services/prediction/PredictionSample.java
     mvn compile
     mvn -q exec:java
+
+### Browse the original sample from Google
+
+-   [Browse Source]
+    (https://github.com/google/google-api-java-client-samples/tree/master/prediction-cmdline-sample),
+    or [main file]
+    (https://github.com/google/google-api-java-client-samples/blob/master/prediction-cmdline-sample/src/main/java/com/google/api/services/samples/prediction/cmdline/PredictionSample.java).
 
 To enable logging of HTTP requests and responses (highly recommended when
 developing), take a look at [`logging.properties`](logging.properties).
