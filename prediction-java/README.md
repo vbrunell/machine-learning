@@ -1,6 +1,6 @@
 # Google Prediction API
 
-The code in this repository is derived from the code sample provided by Google.  I've added the ability to create categorical models even when using integer values in CSV formatted training data.  
+The code in this repository is derived from the Google prediction api code sample provided by Google.  I've added the ability to create categorical models even when using integer values in CSV formatted training data.  
 
 - To do this, use the replaceNumbers() function in PredictionSample.java, passing it the English version of the number from the training data.  
 - To generate training data with integers converted to English, please look at the datagen directory in this repo.  The inflect library is used in data-generator.py to achieve this.
@@ -39,13 +39,6 @@ and [Maven](http://maven.apache.org/download.html). You might need to set your
     [editor] src/main/java/com/google/api/services/prediction/PredictionSample.java
     mvn compile
     mvn -q exec:java
-
-### Browse the original sample from Google
-
--   [Browse Source]
-    (https://github.com/google/google-api-java-client-samples/tree/master/prediction-cmdline-sample),
-    or [main file]
-    (https://github.com/google/google-api-java-client-samples/blob/master/prediction-cmdline-sample/src/main/java/com/google/api/services/samples/prediction/cmdline/PredictionSample.java).
 
 To enable logging of HTTP requests and responses (highly recommended when
 developing), take a look at [`logging.properties`](logging.properties).
