@@ -33,7 +33,7 @@ and [Maven](http://maven.apache.org/download.html). You might need to set your
 `JAVA_HOME`.
 
     cd [someDirectory]
-    git clone https://github.com/google/google-api-java-client-samples.git
+    git clone https://github.com/vbrunell/machine-learning.git
     cd machine-learning/prediction-java
     cp ~/Downloads/MyProject-12345abcd.p12 src/main/resources/
     [editor] src/main/java/com/google/api/services/prediction/PredictionSample.java
