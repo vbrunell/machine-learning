@@ -2,7 +2,7 @@ This is a data set generator for use with Google's machine learning API.  It is 
 
 - It generates data sets in CSV format.  
 - It also generates data sets that can be used with integer column values and categorical models (as opposed to regression models).  
-- The Google API automatically uses regression models on identifying integer column values, so I've used a simple hack along with the java code in `prediction-java` to convert numbers to and from English.  
+- The Google API automatically uses regression models upon identifying integer column values, so I've used a simple hack along with the java code in `prediction-java` to convert numbers to and from English.  
 
 ## To run the script:
 
